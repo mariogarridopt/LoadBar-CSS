@@ -2,6 +2,8 @@ LoadBar-CSS
 ===========
 A simple css design for LoadBar's
 
+![ScreenShot](http://i.gyazo.com/5f782c41c8d138ae559022bff7c49e6a.gif)
+
 ##How to use##
 1. Import the `loadbar.css` file;
 2. Create a div using .bar class;
