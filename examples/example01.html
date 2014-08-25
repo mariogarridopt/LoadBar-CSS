@@ -4,7 +4,16 @@
         <title>LoadBar</title>
         <link rel="stylesheet" type="text/css" href="../loadbar.css">
 </head>
-    <body>
-        <div class="bar"><span class="bar-fill" style="width: 80%;"></span></div>
+    <body style="width: 70%; margin: 0 auto;">
+        <div class="bar"><span class="bar-fill" id="el1" style="width: 0%;"></span></div>
     </body>
+    
+    <script type="text/javascript">
+		var i = 50;
+		var id = setInterval(function () {
+		    document.getElementById("el1").style.width = i + "%";
+		    i++;
+		    if(i == 100) clearInterval(id);
+	    }, 100);
+    </script>
 </html>
